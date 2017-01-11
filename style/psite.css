@@ -1,0 +1,55 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+.navbar{
+  background-color: #1A90BE;
+  background-image: none;
+  border-bottom: 7px solid #146e8f;
+  text-align: center;
+
+}
+
+.nav.navbar-nav li a, .navbar-default .navbar-brand{
+  color: #fff;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle, .navbar-collapse {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: none;
+}
+
+.jumbotron {
+/*  background-color: #1a90bc;*/
+  background-image: linear-gradient(-60deg, #75bcd6, #146e8f);
+  color: #fff;
+  padding: 100px 25px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+#education {
+  background-image: linear-gradient(-90deg,#113644,#405e69);
+}
+#involvement {
+  background-image: linear-gradient(90deg,#113644,#405e69);
+}
+#projects {
+  background-color: #333333;
+}
+#art{
+  background-color: #ccc;
+}
+
+.bottom {
+  background-color: #146e8f;
+  border-top: 7px solid #146e8f;
+}
