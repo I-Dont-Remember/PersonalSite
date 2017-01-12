@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Kevin Quinn's Site</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -20,6 +21,7 @@
     <![endif]-->
     <!-- My CSS -->
       <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="style/psite.css" media="screen" />
   </head>
 
@@ -33,7 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#myPage">Kevin's Site</a>
+          <a class="navbar-brand" href="#"><i class="fa fa-code"></i> Home</a>
         </div>
 
         <div class="collapse navbar-collapse" id="myNav">
@@ -41,8 +43,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#involvement">Involvement</a></li>
-            <li><a href="#art">Art</a></li>
+            <li><a href="#extra">Extracurriculars</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -51,42 +52,92 @@
 
     <div class="jumbotron text-center">
       <div class="container">
-        <h1>In a World...</h1>
-        <p>tacos and humans live side by side</p>
+        <h1>Kevin Quinn</h1>
+        <h5>Aspiring productive member of society</h5>
       </div>
     </div>
 
     <div id="about" class="container-fluid">
-      <h2>About</h2>
-
+      <h1>About</h1>
+      <p>Hi! I am, and forever will be, a person who loves to learn and try new things. In the fall '16 semester I found a love for programming, and ever since then I've been exploring the exciting possibilities in technology.  Many of my courses don't cover the topics I find most interesting, so I spend a lot of time outside of class making, breaking, and learning from mistakes.
+      <br>
+      For better or for worse, the embarrassment of failure can't sting me anymore, and since failure is the first step in learning I feel I'm on the right track.  
+      </p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="https://www.linkedin.com/in/quinnkevinp" title="My LinkedIn Page" target="_blank" class="btn btn-info btn-lg" role="button">LinkedIn  <i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="col-sm-6">
+            <a href="kquinnRes1.2017.pdf" class="btn btn-info btn-lg" role="button">Resume <i class="fa fa-file-pdf-o"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="education" class="container-fluid">
-      <h2>Education</h2>
-      <p>stufff stsdjdlfjsal  ;fkl;sdjlfsld ;fjsdlfjl;sdjlfsdjl;fjds lk;fjlk;sdj fkl;jsdlk;fj dlsfjlsdfjlsd jf; sdlfjl; sdfl;kjdl ;djfkl;s dj;klfj l sdkfjkl;  jl;j;lf;la;l fl;f;klflkd;fl;jj</p>
-      <br>
-
+      <h1>Education</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>University of Wisconsin-Madison</h3>
+            <ul><em>
+              <li>Double Major:<p> Computer Engineering and Computer Science</p></li>
+              <li>GPA:<p> 3.36 / 4.0</p></li>
+              <li>Relevant Coursework:
+                <p>Intro to Computer Eng, Intro to Electrical Eng, Intro to Programming, Data Structures, Machine Organization and Programming,Digital System Fundamentals, Discrete Math, Signals and Computing, Circuit Analysis, Artificial Intelligence, Algorithms, Microprocessor Systems </p>
+              </li></em>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-education"></span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="projects" class="container-fluid">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>To Main Page</h3>
+            <a href="https://github.com/I-Dont-Remember" target="_blank" class="btn btn-info" title="My GitHub" role="button"><img src="GitHub-Mark/PNG/GitHub-Mark-120px-plus.png"></a>
+          </div>
+          <div class="col-sm-4">
+            <h3>W.E. sorter</h3>
+            <p>This is a simple project I wrote in C when I heard folks at work wanted to do a White Elephant exchange. It is a console program using the Fisher-Yates shuffle to randomly assign indexes and outputs names with a Caesar Cipher.</p>
+            <button onclick="visitPage(1)">Source Code <i class="fa fa-github"></i></button>
+          </div>
+          <div class="col-sm-4">
+            <h3> Personal Site</h3>
+            <p>You're on it!:) My personal site is a responsive site written with the Bootstrap framework and hosted in my apartment on my Raspberry Pi.  It was my first introduction to web development, and Bootstrap made it 1000 times easier for a beginner to create a site that doeen't look like it's from the 90's.</p>
+            <button onclick="visitPage(2)">Source Code <i class="fa fa-github"></i></button>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="extracurriculars" class="container-fluid">
-      <!--have hobbies.html link-->
-      <h2>Extracurriculars</h2>
-      <a href="hobbies.html">Hobbies</a>
+    <div id="extra" class="container-fluid">
+      <h1>Extracurriculars</h1>
+      <p>This section is under construction</p>
+      <a href="hobbies.html" style="color: #fff">Hobbies Page</a>
     </div>
 
     <div id="contact" class="container-fluid">
-      <h2>Contact</h2>
+      <h1>Contact</h1>
+      <h5>Kevin Quinn</h5>
+      <h5>kpquinn2@wisc.edu</h5>
+      <h5>i_dont_remember@zoho.com</h5>
+      <h5>+1 (715)-338-7410</h5>
+
     </div>
 
     <footer class="container-fluid text-center bottom">
       <a href="#" title"To Top">
         <span class="glyphicon glyphicon-eject"></span>
       </a>
-      <h6>Powered by Tacos and Raspberry Pi</h6>
+      <h6>Powered by Animal Crackers and hosted on Raspberry Pi</h6>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -94,5 +145,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+    <script src="scripts/psite.js"></script>
+    </body>
 </html>
