@@ -1,0 +1,46 @@
+.navbar{
+  background-color: #1A90BE;
+  background-image: none;
+  border-bottom: 7px solid #146e8f;
+  padding: 0;
+  margin-left: 0;
+}
+
+div.container {
+  margin: 0;
+}
+
+.nav.navbar-nav li a, .navbar-default .navbar-brand{
+  color: #fff;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle, .navbar-collapse {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: none;
+}
+
+h1 {
+  padding-top: 120px;
+}
+
+body {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 19px;
+}
+
+img {
+ width: 60%; height: 45%;
+ -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
